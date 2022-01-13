@@ -1,6 +1,14 @@
-# Big Sur icons for Catalina
+# Monterey icons for Catalina 
 
-macOS Big Sur icons for macOS Catalina (auto-apply script)
+## 🚧 This tool is under construction, and there's no estimated time of completion. 🚧
+
+## TO DO LIST
+
+- [ ] Update icons to macOS Monterey version
+- [ ] Backup and restore functionality
+- [ ] Fix the funny calendar icon in Dock
+
+macOS Monterey icons for macOS Catalina (auto-apply script)
 
 ## Warning
 
@@ -15,8 +23,3 @@ Extract it and open the folder
 Click on ``applyIcons.command``
 
 It will ask you for your password to copy the files, enter it and all the files will be copied
-
-## TO DO LIST
-
-- [x] Add System icons (drives, folders, empty doc and empty files)
-- [x] Add default macOS Applications icons
