@@ -3,6 +3,10 @@
 cd "$(dirname "$0")"
 version=`sw_vers -productVersion`
 
+echo "Backing up your icons to ./Backup folder..."
+./collectIcons.command ./Backup
+
+exit
 echo "You need to execute this script as root"
 
 echo " "
@@ -98,7 +102,7 @@ echo "Applying Books icon..."
 sudo ./Scripts/fileicon set /System/Applications/Books.app Applications/Books.icns
 echo "Applying Calculator icon..."
 sudo ./Scripts/fileicon set /System/Applications/Calculator.app Applications/Calculator.icns
-echo "Applying Calculator icon..."
+echo "Applying Calendar icon..."
 sudo ./Scripts/fileicon set /System/Applications/Calendar.app Applications/Calendar.icns
 sudo cp -f Applications/Calendar.icns /System/Applications/Calendar.app/Contents/Resources/App.icns
 sudo cp -f Applications/Calendar-empty.icns /System/Applications/Calendar.app/Contents/Resources/App-empty.icns

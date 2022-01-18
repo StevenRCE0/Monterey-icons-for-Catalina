@@ -4,8 +4,8 @@
 
 ## TO DO LIST
 
-- [ ] Update icons to macOS Monterey version
-- [ ] Backup and restore functionality
+- [x] Update icons to macOS Monterey version
+- [x] Backup and restore functionality
 - [ ] Fix the funny calendar icon in Dock
 
 macOS Monterey icons for macOS Catalina (auto-apply script)
