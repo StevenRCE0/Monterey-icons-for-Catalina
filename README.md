@@ -1,14 +1,14 @@
 # Monterey icons for Catalina 
 
-## 🚧 This tool is under construction, and there's no estimated time of completion. 🚧
+macOS Monterey icons for macOS Catalina (auto-apply script)
+
 
 ## TO DO LIST
 
 - [x] Update icons to macOS Monterey version
 - [x] Backup and restore functionality
-- [ ] Fix the funny calendar icon in Dock
-
-macOS Monterey icons for macOS Catalina (auto-apply script)
+- [x] Fix the funny calendar icon in Dock <br>
+ (Semi-fixed, it's no longer dynamic after applying the icon. Monterey's docktile worker doesn't support lower versions of macOS. Maybe someday I'll rewrite this one, but not recently. )
 
 ## Warning
 

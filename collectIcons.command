@@ -102,10 +102,9 @@ cp /System/Applications/Books.app/Contents/Resources/iBooksAppIcon.icns Applicat
 echo "Copying Calculator icon..."
 cp /System/Applications/Calculator.app/Contents/Resources/AppIcon.icns Applications/Calculator.icns
 echo "Copying Calendar icon... No, we're not copying that."
-# TODO: fix calendar's tilted text (maybe)
-# cp /System/Applications/Calendar.app/Contents/Resources/App.icns Applications/Calendar.icns
-# cp /System/Applications/Calendar.app/Contents/Resources/App-empty.icns Applications/Calendar-empty.icns
-# cp /System/Applications/Calendar.app/Contents/Resources/Calendar.docktileplugin/Contents/Resources/App-empty.icns Applications/Calendar-empty.icns
+cp /System/Applications/Calendar.app/Contents/Resources/App.icns Applications/Calendar.icns
+cp /System/Applications/Calendar.app/Contents/Resources/App-empty.icns Applications/Calendar-empty.icns
+cp /System/Applications/Calendar.app/Contents/Resources/Calendar.docktileplugin/Contents/Resources/App-empty.icns Applications/Calendar-empty.icns
 echo "Copying Chess icon..."
 cp /System/Applications/Chess.app/Contents/Resources/Chess.icns Applications/
 echo "Copying Contacts icon..."
@@ -227,6 +226,9 @@ echo "Copying Ticket Viewer icon..."
 cp /System/Library/CoreServices/Applications/Ticket\ Viewer.app/Contents/Resources/TicketViewer.icns Applications/Ticket\ Viewer.icns
 echo "Copying Wireless Diagnostics icon..."
 cp /System/Library/CoreServices/Applications/Wireless\ Diagnostics.app/Contents/Resources/WirelessDiagnostics.icns Applications/Wireless\ Diagnostics.icns
+
+echo "Backing up Calendar docktile worker..."
+cp /System/Applications/Calendar.app/Contents/Resources/Calendar.docktileplugin/Contents/MacOS/Calendar Misc
 
 echo " "
 echo "Done!"

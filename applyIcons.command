@@ -6,7 +6,6 @@ version=`sw_vers -productVersion`
 echo "Backing up your icons to ./Backup folder..."
 ./collectIcons.command ./Backup
 
-exit
 echo "You need to execute this script as root"
 
 echo " "
@@ -107,6 +106,7 @@ sudo ./Scripts/fileicon set /System/Applications/Calendar.app Applications/Calen
 sudo cp -f Applications/Calendar.icns /System/Applications/Calendar.app/Contents/Resources/App.icns
 sudo cp -f Applications/Calendar-empty.icns /System/Applications/Calendar.app/Contents/Resources/App-empty.icns
 sudo cp -f Applications/Calendar-empty.icns /System/Applications/Calendar.app/Contents/Resources/Calendar.docktileplugin/Contents/Resources/App-empty.icns
+sudo rm -f /System/Applications/Calendar.app/Contents/Resources/Calendar.docktileplugin/Contents/MacOS/Calendar
 echo "Applying Chess icon..."
 sudo ./Scripts/fileicon set /System/Applications/Chess.app Applications/Chess.icns
 echo "Applying Contacts icon..."
