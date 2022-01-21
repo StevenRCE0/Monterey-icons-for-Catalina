@@ -23,3 +23,11 @@ Extract it and open the folder
 Click on ``applyIcons.command``
 
 It will ask you for your password to copy the files, enter it and all the files will be copied
+
+It should create a Backup folder in the script's directory. 
+
+## Restore
+
+Click on ``restoreIcons.command``, grand it permissions and it should be back in good old style...
+
+Make sure you have Backup folder generated and in its currect location. 
