@@ -7,8 +7,7 @@ macOS Monterey icons for macOS Catalina (auto-apply script)
 
 - [x] Update icons to macOS Monterey version
 - [x] Backup and restore functionality
-- [x] Fix the funny calendar icon in Dock <br>
- (Semi-fixed, it's no longer dynamic after applying the icon. Monterey's docktile worker doesn't support lower versions of macOS. Maybe someday I'll rewrite this one, but not recently. )
+- [ ] Dynamic calendar icon in Dock
 
 ## Warning
 
@@ -28,6 +27,6 @@ It should create a Backup folder in the script's directory.
 
 ## Restore
 
-Click on ``restoreIcons.command``, grand it permissions and it should be back in good old style...
+Click on ``restoreIcons.command``, grant it permissions and it should be back in the good old style...
 
 Make sure you have Backup folder generated and in its currect location. 
